@@ -14,7 +14,7 @@ public class SelectDemo {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			
-			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "c##batch9am", "nareshit");
+			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "c##batch9am", "mydbsorcl9751");
 			Statement stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery("SELECT *FROM student");
 			ResultSetMetaData rmd =rs.getMetaData();
