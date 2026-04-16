@@ -16,8 +16,8 @@ public class JRSDemo {
 	public static void main(String[] args) {
 		try (JdbcRowSet jrs = new OracleJDBCRowSet()) {
 			jrs.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
-			jrs.setUsername("c##batch9am");
-			jrs.setPassword("nareshit");
+			jrs.setUsername("***********");
+			jrs.setPassword("***********");
 			jrs.setCommand("SELECT * FROM student");
 			jrs.execute();
 			
