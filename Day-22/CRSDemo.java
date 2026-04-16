@@ -18,8 +18,8 @@ public class CRSDemo {
 		try {
 			CachedRowSet crs = new OracleCachedRowSet(); 
 			crs.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
-			crs.setUsername("c##batch9am");
-			crs.setPassword("nareshit");
+			crs.setUsername("********");
+			crs.setPassword("********");
 			crs.setCommand("SELECT * FROM student");
 			crs.execute();
 			
