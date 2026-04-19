@@ -1,3 +1,7 @@
+/**
+* Servlet program to add HTML Code..
+*/
+
 package basics;
 
 import jakarta.servlet.*;
