@@ -20,11 +20,11 @@
 		</init-param>
 		<init-param>
 			<param-name>user</param-name>
-			<param-value>c##batch9am</param-value>
+			<param-value>***********</param-value>
 		</init-param>
 		<init-param>
 			<param-name>pass</param-name>
-			<param-value>nareshit</param-value>
+			<param-value>**********</param-value>
 		</init-param>
 	</servlet>
 
